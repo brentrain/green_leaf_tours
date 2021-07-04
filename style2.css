@@ -1,7 +1,69 @@
+/*  
+  font-family: 'Oswald', sans-serif;
+ font-family: 'Raleway', sans-serif;
+*/
+
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color:yellowgreen;
+body {
+  background-color: #dadd98;
+}
+.title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h1,
+h2,
+li,
+ul,
+p {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.gatlinburg {
+  background-color: aquamarine;
+}
+.nashville {
+  background-color: cadetblue;
+}
+.asheville {
+  background-color: darkkhaki;
+}
+.home {
+  display: flex;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.glass-button {
+  /* background styles */
+  position: relative;
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: green; /*for compatibility with older browsers*/
+  background-image: linear-gradient(green, lightgreen);
+  margin: auto;
+  /* text styles */
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.glass-button :hover {
+  background: linear-gradient(#073, #0fa);
+}
+
+.excursions {
+  margin: auto;
 }
